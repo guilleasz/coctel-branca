@@ -1,0 +1,530 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+@font-face {
+    font-family: 'Ecuyer';
+    src: url('EcuyerR.TTF');
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    background: #232323;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url(../fonts/Vollkorn-Regular.otf) format('open true font'), url(../fonts/vollkorn-regular-webfont.eot);
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('fonts/vollkorn-regular-webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/vollkorn-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Vollkorn-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/Vollkorn-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/Vollkorn-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Vollkorn-Regular.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+    font-family: 'Vollkorn' !important;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+code {
+    font-size: 80%;
+}
+.main-header {
+    background-image: url("images/header-bg-1.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+p.gold-text {
+    color: #EADAA6;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Vollkorn';
+    font-size: 24px;
+    letter-spacing: 4px;
+    display: inline-block;
+}
+p.gold-text-2 {
+    color: #EADAA6;
+    text-align: center;
+    font-family: 'Vollkorn';
+    font-size: 24px;
+    display: inline-block;
+    width: 94%;
+    font-style: italic;
+    margin: -10px 0px;
+}
+.col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 4;
+    margin-top: -24px;
+}
+.col-md-2{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.grey-content {
+    background-color: rgb(40, 40, 40);
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5
+}
+
+/*.img-grey-1:hover {
+    background-image: url("images/federico.jpg");
+    background-repeat: no-repeat;background-position:center;
+    background-size: 100%;
+
+}
+
+.img-2:hover{background-image: url("images/juan-cruz.jpg");
+background-repeat: no-repeat;background-position:center;
+    background-size: 100%;
+    height: auto;
+}
+.img-3:hover{background-image: url("images/ana.jpg");
+background-repeat: no-repeat;background-position:center;
+    background-size: 100%;
+    height: auto;}
+.img-4:hover{background-image: url("images/guillermo.jpg");
+background-repeat: no-repeat;background-position:center;
+    background-size: 100% auto;
+    height: auto;}
+.img-5:hover{background-image: url("images/popi.jpg");
+background-repeat: no-repeat;background-position:center;
+    background-size: 100% auto;
+    height: auto;}
+.img-6:hover{background-image: url("images/mauro.png");
+background-repeat: no-repeat;background-position:center;
+    background-size: 100% auto;
+   height: auto;}
+*/
+
+.img-1 {
+    background-image: url("images/federico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: auto;
+}
+.img-2 {
+    background-image: url("images/juan-cruz.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: auto;
+}
+.img-3 {
+    background-image: url("images/ana.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: auto;
+}
+.img-4 {
+    background-image: url("images/guillermo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: auto;
+}
+.img-5 {
+    background-image: url("images/popi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: auto;
+}
+.img-6 {
+    background-image: url("images/mauro.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: auto;
+}
+.body-img {
+    margin: 0px !important;
+}
+h4.img-gold {
+    text-align: center;
+    padding-top: 32%;
+    font-size: 28px;
+    color: #9F8C47;
+    font-family: 'Vollkorn' !important;
+}
+h5.img-light {
+    text-align: center;
+    padding-bottom: 34%;
+    font-size: 24px;
+    color: #e9daa1;
+    font-family: 'Vollkorn' !important;
+    font-style: italic;
+    font-weight: 600;
+}
+.row.first-img-row {
+    margin: -28px 0 0px !important;
+    padding: 0 !important;
+}
+.row.second-img-row {
+    margin: 1px 0 0px !important;
+    padding: 0 !important;
+}
+.row.footer-bg {
+    background-image: url("images/back_black.jpg");
+    padding: 35px 0px 15px;
+}
+.navbar-default .navbar-nav>li>a {
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 20px;
+    padding: 2px 52px !important;
+    width: 100%;
+    font-family: Ecuyer;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-right: 0px;
+    color: #e9daa3;
+    font-size: 16px;
+}
+navbar-default .navbar-nav>li>a:hoover {
+    color: #e9daa3;
+}
+.logo {
+    margin: 0 auto;
+    width: 80%;
+}
+.col-md-6.light-text-ft {
+    color: #e9daa3;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-size: 16px;
+}
+.col-md-6.light-text-ft p {
+    float: right;
+    width: 80%;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.light-text-ft li {
+    letter-spacing: 2px;
+    list-style: outside none none;
+    padding: 0 0 10px;
+}
+.light-text-ft li a {
+    color: #e9daa3;
+    font-family: 'Vollkorn';
+    text-transform: uppercase;
+}
+.scroll {
+    color: #978341;
+    font-family: 'Vollkorn';
+    font-size: 18px;
+    font-style: italic;
+    margin: 10% 0 10%;
+    text-align: center;
+}
+.text-bottom {
+    text-align: right;
+    color: #e9daa3;
+    font-family: 'Vollkorn';
+    font-size: 12px;
+}
+.social a {
+    margin: 0 10px;
+}
+.social {
+    float: right;
+}
+.footer_logo {
+    float: left;
+    width: 20%;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    opacity: 0;
+    /* make things invisible upon start */
+    -webkit-animation: fadeIn ease-in 1;
+    /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.fade-in.one {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.fade-in.two {
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+.fade-in.three {
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    animation-delay: 4s;
+}
+iframe {
+    min-height: 600px;
+}
+
+/*---make a basic box ---*/
+
+@media (min-width:992px) and (max-width:1300px) {}
+@media (max-width:992px) {
+    body > .container {
+        padding: 60px 15px 0;
+        font-family: 'Vollkorn' !important;
+    }
+    h4.img-gold {
+        padding-top: 29.2%;
+    }
+    h5.img-light {
+        padding-bottom: 28%;
+    }
+    .img-1 {
+        background-size: auto;
+    }
+    .img-2 {
+        background-size: auto;
+    }
+    .img-3 {
+        background-size: auto;
+    }
+    .img-4 {
+        background-size: auto;
+    }
+    .img-5 {
+        background-size: auto;
+    }
+    .img-6 {
+        background-size: auto;
+    }
+    .img-1:hover {
+        background-size: auto;
+    }
+    .img-2:hover {
+        background-size: auto;
+    }
+    .img-3:hover {
+        background-size: auto;
+    }
+    .img-4:hover {
+        background-size: auto;
+    }
+    .img-5:hover {
+        background-size: auto;
+    }
+    .img-6:hover {
+        background-size: auto;
+    }
+}
+@media (max-width:800px) {}
+@media (max-width:600px) {
+    body > .container {
+        padding: 60px 15px 0;
+        font-family: 'Vollkorn' !important;
+    }
+    .logo > img {
+        width: 100%;
+    }
+    .img-1 {
+        background-size: 100%;
+    }
+    .img-2 {
+        background-size: 100%;
+    }
+    .img-3 {
+        background-size: 100%;
+    }
+    .img-4 {
+        background-size: 100%;
+    }
+    .img-5 {
+        background-size: 100%;
+    }
+    .img-6 {
+        background-size: 100%;
+    }
+    .img-1:hover {
+        background-size: 100%;
+    }
+    .img-2:hover {
+        background-size: 100%;
+    }
+    .img-3:hover {
+        background-size: 100%;
+    }
+    .img-4:hover {
+        background-size: 100%;
+    }
+    .img-5:hover {
+        background-size: 100%;
+    }
+    .img-6:hover {
+        background-size: 100%;
+    }
+    h4.img-gold {
+        padding-top: 36%;
+    }
+    h5.img-light {
+        padding-bottom: 37%;
+    }
+    .footer_logo {
+        float: none;
+        width: 30%;
+        margin: 0 auto;
+    }
+    iframe {
+        min-height: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: inline
+    }
+}
+.navbar-toggle {
+    float: none;
+    border: 0
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e9daa3
+}
+.navbar-toggle .icon-bar {
+    width: 16px
+}
+li.item {
+    display: inline;
+}
+li.item a {
+    color: #9e8b47;
+    font-size: x-large
+}
+
+.video {
+    display: none
+}
+
+.video_portada {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:0;
+    max-height: 600px
+}
+
+.info {
+    border-top: 5px solid #9e8b47;;
+    background-color: rgba(0,0,0,1);
+    height: 500px
+}
+
+.titulo_interna {
+    color:#9e8b47
+}
+
+.data_info {
+    color: #FFFFFF;
+}
+.dorado_subrayado {
+    color: #9e8b47;
+    text-decoration: underline;
+    text-transform: uppercase
+}
+
+.explicacion {
+    font-size: 10px
+}
+#play {
+    position: absolute;
+    left: 50%;
+    z-index: 9999;
+    transform: translateX(-50%);
+    top: 15%;
+    width:30%
+}
+@media(max-width:1200px){
+    .video_portada{
+        position:relative
+    }
+}
+.portada_imagen {
+    width:100%
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border:0
+}
+
+#navbar{
+    position: absolute;
+    top: 30px;
+    right: -28px;
+}
